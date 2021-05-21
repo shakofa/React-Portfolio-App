@@ -6,6 +6,8 @@ import Wrapper from './components/Wrapper';
 import Home from './pages/Home';
 //import './App.css';
 import Footer from './components/Footer';
+import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
 
 function App() {
   return (
@@ -15,15 +17,12 @@ function App() {
       
       <Wrapper >
         <Route exact path="/" component={Home} />
-        {/* <Route exact path="/Login" component={Log} />
-        <Route exact path="/Signup" component={Signup} />
-        <Route exact path="/Chatroom" component={Chatroom} />
-        <Route exact path="/forgotPass" component={forgotPass} /> */}
+        <Route exact path="/Home" component={Home} />
+        <Route exact path="/Contact" component={Contact} />
+        <Route exact path="/Portfolio" component={Portfolio} />
 
       </Wrapper>
       <Footer />
-
-
     </Router>
   );
 }

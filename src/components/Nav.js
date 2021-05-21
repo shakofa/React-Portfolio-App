@@ -1,46 +1,102 @@
-import React from "react";
+import React  from "react";
 import { Link } from "react-router-dom";
+//import { FaAlignRight } from 'react-icons/fa';
 import "./nav.css";
+import Navbar from 'react-bootstrap/Navbar';
+//import Nav from 'react-bootstrap/Nav';
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
-function Nav() {
-  return (
-    <nav className="navbar  navbar-expand-lg  fluid ">
+// function Nav() {
+     
+//       return (
+//         <nav className="navbar  navbar-expand-lg  fluid ">
+//           <h1 className="navbar-brand" ><strong>Shakofa Mahmody</strong></h1>
+          
+//             <ul className="navbar">
+//               <li className="nav-item ">
+//                 <Link
+//                   to="/"
+//                   className={
+//                     window.location.pathname === "/" || window.location.pathname === "/home"
+//                       ? "nav-link active"
+//                       : "nav-link"
+//                   }
+//                 >
+//                   Home
+//                 </Link>
+//               </li> 
+//               <li className="nav-item">
+//                 <Link
+//                   to="/portfolio"
+//                   className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+//                 >
+//                   Portfolio
+//                 </Link>
+//               </li>
+//               <li className="nav-item">
+//                 <Link
+//                   to="/contact"
+//                   className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+//                 >
+//                   Contact
+//                 </Link>
+//               </li>
+//             </ul>
+          
+//         </nav>
+//       );
+// }
+
+
+
+// export default Nav;
+
+function Navigation(){
+
+  return(
+
+    <Navbar collapseOnSelect expand="lg" bg="dark" >
       <h1 className="navbar-brand" ><strong>Shakofa Mahmody</strong></h1>
-      <div className="navbar justify-content-end">
-        <ul className="navbar-nav">
-           <li className="nav-item ">
-            <Link
-              to="/"
-              className={
-                window.location.pathname === "/" || window.location.pathname === "/home"
+      
+      <Navbar.Collapse id="responsive-navbar-nav">
+            <ul >
+              <li className="nav-item ">
+                <Link
+                  to="/"
+                  className={
+                  window.location.pathname === "/" || window.location.pathname === "/home"
                   ? "nav-link active"
                   : "nav-link"
-              }
-            >
-              Home
-            </Link>
-          </li> 
-          <li className="nav-item">
-            <Link
-              to="/portfolio"
-              className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
-            >
-              Portfolio
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/contact"
-              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-            >
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  );
+                  }
+                >
+                  Home
+                </Link>
+              </li>                
+              <li className="nav-item">
+                <Link
+                  to="/portfolio"
+                  className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+                  >
+                  Portfolio
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to="/contact"
+                  className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+                  >
+                    Contact
+                  </Link>
+              </li>
+            </ul>
+          
+      
+      
+      </Navbar.Collapse>
+    </Navbar>
+  
+  )
 }
 
-export default Nav;
+
+export default Navigation;
