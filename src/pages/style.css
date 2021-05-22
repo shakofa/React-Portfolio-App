@@ -1,0 +1,32 @@
+.homediv{
+    width: 80% ;
+    height: 80%;
+   
+}
+
+.form {
+    background-color:  rgb(148, 102, 179);
+    color: white;
+    max-width: 40em;
+    display:center;
+    margin: 5%;
+    padding: 4%;
+    
+ }
+ 
+
+ .form-group {
+   outline: none;
+   border-radius: 15px;
+ }
+ .form-control{
+   border-radius:8px;
+   height:50px;
+ }
+ .btn {
+   
+   box-shadow:none;
+   border-radius: 20px;
+   background-color:red;
+   
+ }

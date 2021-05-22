@@ -14,3 +14,8 @@
     text-align: 'right';
   }
 
+  .label {
+    padding: 5;
+    color: 'white';
+    font-weight: 'bold';
+  }

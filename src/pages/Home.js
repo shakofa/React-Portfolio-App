@@ -1,21 +1,27 @@
 import React, { Component } from 'react';
-import Header from '../components/Header';
+import Header from '../components/HomePage/Header';
 import {Row, Table, Container } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
 import Col from 'react-bootstrap/Col';
+//import { Table } from 'bootstrap';
 //import { Link } from "react-router-dom";
-import Progressbar from "../components/Progressbar";
-
+//import Progressbar from "../components/Progressbar";
+import SkillTable from "../components/HomePage/SkillTable";
+import Icons from "../components/HomePage/Icons";
+//import Container from "../components/Container";
+import "./style.css";
 export default class Home  extends Component {
     render() {
         return (
-            <div className="main">
+            <div className="homediv">
               <br/> 
               <br />
-                <Container />
-                <Header></Header>
+               
                 
-                    <Row >
+                
+                <Container fluid="sm">
+                <Header></Header>
+                    <Row display="flex">
                         <br />
                         <Col md={4} >
                             <div>
@@ -44,12 +50,12 @@ export default class Home  extends Component {
                                     </tr>
                                     <tr>
                                         <td>Email:</td>
-                                        <td>jas.Mahmody@gmail.com</td>
+                                        <td>exampley@gmail.com</td>
                                         
                                     </tr>
                                     <tr>
                                         <td>Phone:</td>
-                                        <td>+1 2244092447</td>
+                                        <td>+1111111</td>
                                     
                                     </tr>
                                     </tbody>
@@ -57,26 +63,36 @@ export default class Home  extends Component {
                             </div>
                             <h4 >Languages</h4>
                             <p>Persian</p>
-                            
-                               
 
-                            <Progressbar />
-
-                                
-                        
+                            {/*<Progressbar /> */}
 
                         </Col>
                         <Col lg={6}>
 
-                    
-                        
+                            <h2>UNDER CONSTRUCTION!</h2>
+                            <div>
+                                
+                                hello world
+                            </div>
+                            <br />
+
+                            <h2>
+                                Programming Skills
+                            </h2>
+
+                            <p>(MERN Stack)</p>
+                            <br />
+
+                            <div>
+                                <SkillTable />
+                            </div>
+
                         </Col>
                         <Col xs={2} >
-                        <h1>col3</h1>
+                            <Icons />
                         </Col>
                     </Row>
-                
-              
+                </Container>
             </div>
         )
     }

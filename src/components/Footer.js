@@ -4,7 +4,8 @@ import "./nav.css";
 function Footer() {
   return (
     <footer className="footer">
-      <span>Copyright 2021</span>
+      <div className="two-toned-footer-color"></div>
+      <div className="text">© Copyright 2020 Shakofa Mahmody</div>
     </footer>
   );
 }

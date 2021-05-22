@@ -8,6 +8,10 @@ import Home from './pages/Home';
 import Footer from './components/Footer';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
+import "./App.css";
+//import Container from './components/Container';
+ 
+
 
 function App() {
   return (
