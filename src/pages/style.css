@@ -47,3 +47,37 @@ Col{
   float:center;
 }
  
+
+/*home*/
+.R{
+  margin-top: 90px;
+}
+
+.p{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+.b {
+  background-color:rgb(90, 123, 163);
+  margin-left: 80px;
+  
+  border-radius: 5px;
+  color:white;
+  padding:8px;
+  
+}
+
+.I{
+  margin-left: 20px;
+}
+h4{
+  text-align: center;
+}
+.L{
+  text-align: left;
+}

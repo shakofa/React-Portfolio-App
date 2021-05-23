@@ -1,7 +1,7 @@
 
 import React from 'react';
-//import ProgressBar from 'react-bootstrap/ProgressBar'
-//import "../styles/Progressbar.css"
+//import ProgressBar from 'react-bootstrap/ProgressBar';
+//import "../styles/Progressbar.css";
 
 const ProgressBar = (props) => {
    
