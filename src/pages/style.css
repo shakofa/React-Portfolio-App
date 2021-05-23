@@ -1,17 +1,19 @@
-.homediv{
-    width: 80% ;
-    height: 80%;
-   
-}
+/* .homediv{
+  width: 80% ;
+  height: 80%;
+ 
+} */
 
+
+/*contact form*/
 .form {
-    background-color:  rgb(148, 102, 179);
+    background-color:  rgb(186, 205, 226);
     color: white;
-    max-width: 40em;
-    display:center;
-    margin: 5%;
-    padding: 4%;
-    
+    max-width: 60em;
+    display:block;
+    margin: 13%;
+    padding: 50px;
+  
  }
  
 
@@ -23,10 +25,25 @@
    border-radius:8px;
    height:50px;
  }
- .btn {
-   
-   box-shadow:none;
-   border-radius: 20px;
-   background-color:red;
-   
+ 
+ 
+
+ .con{
+  position:relative;
+ 
+  flex-wrap:wrap;
+
+}
+
+ /*portfolio*/
+ .portfolio{
+   position:relative;
+   display: flex;
+   flex-wrap:wrap;
  }
+
+ /*contact form*/
+Col{
+  float:center;
+}
+ 

@@ -17,9 +17,9 @@ body,
 #root,
 #root > div,
 div[data-reactroot] {
-  height: 100% !important;
-  position:absolute;
-  width: 100% !important;
+  height: 100% ;
+  position:relative;
+  width: 100% ;
 }
 
 
@@ -28,7 +28,5 @@ code {
     monospace;
 }
 
-App{
-  width: 100% !important;
-  height: 100% !important;
-}
+
+

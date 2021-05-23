@@ -55,14 +55,13 @@ function Navigation(){
 
   return(
 
-    <Navbar collapseOnSelect expand="lg" bg="dark" >
-      <h1 className="navbar-brand" ><strong>Shakofa Mahmody</strong></h1>
+    <Navbar collapseOnSelect expand="lg" className="bar" >
+      <h3 className="h3" >Shakofa Mahmody</h3>
       
-      <Navbar.Collapse id="responsive-navbar-nav">
-            <ul >
-              <li className="nav-item ">
+      <Navbar id="responsive-navbar-nav">
+          
                 <Link
-                  to="/"
+                  to="home"
                   className={
                   window.location.pathname === "/" || window.location.pathname === "/home"
                   ? "nav-link active"
@@ -71,28 +70,26 @@ function Navigation(){
                 >
                   Home
                 </Link>
-              </li>                
-              <li className="nav-item">
+             
                 <Link
                   to="/portfolio"
                   className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
                   >
                   Portfolio
                 </Link>
-              </li>
-              <li className="nav-item">
+              
                 <Link
                   to="/contact"
                   className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
                   >
                     Contact
                   </Link>
-              </li>
-            </ul>
+              
+            
           
       
       
-      </Navbar.Collapse>
+      </Navbar>
     </Navbar>
   
   )

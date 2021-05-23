@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../components/HomePage/Header';
-import {Row, Table, Container } from 'react-bootstrap';
+import {Row, Table, Container} from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
 import Col from 'react-bootstrap/Col';
 //import { Table } from 'bootstrap';
@@ -16,12 +16,13 @@ export default class Home  extends Component {
             <div className="homediv">
               <br/> 
               <br />
-               
-                
-                
-                <Container fluid="sm">
-                <Header></Header>
-                    <Row display="flex">
+         
+              
+               <Container> 
+              <Header></Header>
+                      <Row >  {/*display="flex" */}
+
+                     
                         <br />
                         <Col md={4} >
                             <div>
@@ -92,7 +93,7 @@ export default class Home  extends Component {
                             <Icons />
                         </Col>
                     </Row>
-                </Container>
+               </Container>
             </div>
         )
     }

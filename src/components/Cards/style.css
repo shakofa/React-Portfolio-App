@@ -1,0 +1,19 @@
+.card{
+    padding: 10px;
+    float: center;
+    margin: 70px;
+    margin-left: 20px;
+    width: 100%;
+    display: flex;
+    
+  }
+
+.btn{
+    background-color:#2f4e72;
+}
+Button{
+    background-color:#2f4e72;
+}
+a{
+    background-color:#2f4e72    ;
+}
