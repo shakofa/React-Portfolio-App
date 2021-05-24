@@ -7,7 +7,7 @@ A student portfolio is a compilation of academic work and other forms of educati
 
 <img src="public\port.png" width="600" height="500">
 
-## Tools and Technologies
+# Tools and Technologies
 * **Packages:** 
   * React-Router
   * React-Router-Dom
@@ -21,4 +21,4 @@ A student portfolio is a compilation of academic work and other forms of educati
 * **Operating System:** Windows 10
 
 # Deployed Link
-(Take a look!)[]
+(Take a look!)[https://shakofa.github.io/React-Portfolio-App/]
