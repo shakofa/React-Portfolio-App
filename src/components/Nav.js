@@ -61,7 +61,7 @@ function Navigation(){
       <Navbar id="responsive-navbar-nav">
           
                 <Link
-                  to="home"
+                  to="/"
                   className={
                   window.location.pathname === "/" || window.location.pathname === "/home"
                   ? "nav-link active"

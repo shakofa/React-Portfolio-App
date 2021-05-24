@@ -2,15 +2,18 @@
     padding: 10px;
     float: center;
     margin: 70px;
-    margin-left: 20px;
+    margin-left: 90px;
     width: 100%;
     display: flex;
 
   }
 
-/* .btn{
+  .b{
     background-color:#2f4e72;
+    float: center;
+   
 }
+/* .
 Button{
     background-color:#2f4e72;
 }

@@ -13,17 +13,21 @@ export default function Project3Card() {
                                     This is our project 3. it is underconstruction and will be added here soon.
                                     </Card.Text>
                                     <div>
-                                    <Card.Img src="./public/111.png" >
-                                       
-                                    </Card.Img>
+                                    
+                                    <img className="Image" src={process.env.PUBLIC_URL + "/pro3.png"} width={800} height={500}  alt="img"/>
+                                    
+                                    </div>
+                                    <br />
+                                    
+                                </Card.Body>
+                                <div>
+                                    <Button className="btn-info">Github Repository</Button>
+                                  
                                     </div>
                                     <br />
                                     <div>
-                                    <Button className="btn">Github Repository</Button>
-                                    <br />
-                                    <Button className="btn">Deployed Link</Button>
+                                    <Button className="btn-info">Deployed Link</Button>
                                     </div>
-                                </Card.Body>
                                 </Card>
         </div>
     )
