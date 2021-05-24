@@ -17,16 +17,17 @@ function App() {
   return (
     <Router>
       
-      <Nav />
+      
     
       <Wrapper >
+        <Nav />
         <Route exact path="/" component={Home} /> 
         <Route exact path="/Home" component={Home} />
         <Route exact path="/Contact" component={Contact} />
         <Route exact path="/Portfolio" component={Portfolio} />
-
+        <Footer />
       </Wrapper>
-      <Footer />
+      
     </Router>
   );
 }

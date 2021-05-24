@@ -28,7 +28,7 @@ export default class Home  extends Component {
 
                         <Col md={{ span: 3, offset: 0 }} >
                             <div>
-                            <img className="Image" src={process.env.PUBLIC_URL + "/me.jpg"} width={200} height={200} alt="" />
+                            <img className="I" src={process.env.PUBLIC_URL + "/me.jpg"} width={200} height={200} alt="" />
 
                             </div>
                             <br />
