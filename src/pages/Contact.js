@@ -32,7 +32,7 @@ export default class Contact  extends Component {
                                 <Form.Control as="textarea" rows={3} />
                             </Form.Group>
                             <br />
-                            <Button className="b" type="submit">
+                            <Button className="btn" type="submit">
                                 Submit
                             </Button>
                         </Form>

@@ -84,11 +84,6 @@ function Navigation(){
                   >
                     Contact
                   </Link>
-              
-            
-          
-      
-      
       </Navbar>
     </Navbar>
   
