@@ -10,7 +10,7 @@ export default function Project3Card() {
                 <Card.Body>
                     <Card.Title>3-Bandstand</Card.Title>
                     <Card.Text>
-                        This is a Mern stack app that utilizes socket io and many other thechnologies to run a functional, responsive chatroom application. This chatroom app is build for Spotify users who are using spotify prime to listen to music. The users are able chat at the same time they are listing to spotify music.
+                        This is a Mern stack app that utilizes socket.io and many other thechnologies to run a functional, responsive chatroom application. This chatroom app is build for Spotify users who are using spotify prime to listen to music. The users are able chat at the same time they are listing to spotify music.
                     </Card.Text>
                     <div>
                                     
