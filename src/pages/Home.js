@@ -35,7 +35,7 @@ export default class Home  extends Component {
                              <p className="p">Fullstack Developer</p>
                             <br />
                              <div>
-                                <a href="https://drive.google.com/file/d/1--2fEOCga_NUrnM1N3i-rdQ_YlSYvw5c/view?usp=sharing">
+                                <a href="https://drive.google.com/file/d/155SlfS3ItM-KkEMYtfOLdGcCjo_NOOxg/view?usp=sharing">
                                     <button type="submit" className="b">Resume</button>
                                 </a>
                             </div>
