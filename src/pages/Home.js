@@ -80,7 +80,7 @@ export default class Home  extends Component {
                             <div>
                                 <p>
                                 Hello, I am Shakofa Mahmody!
-                                I am a Fullstack Web Developer. I have learned programming languages and other technologies for over few months from coding bootcamp and online programming resources. I have experience with javascript, CSS, HTML, nodejs, Express, EC6, jquery. I love interacting with people and would love to work in group projects. I am still learning and at the same time looking for new jobs and opurtunities in programming..
+                                I am a Fullstack Web Developer. I have learned programming languages and other technologies for over few months from coding bootcamp and online programming resources. I have experience with javascript, CSS, HTML, nodejs, Express, EC6, jquery, MySQL, React and MongoDB. I love interacting with people and would love to work in group projects. I am still learning and at the same time looking for new jobs and opurtunities in programming.
                                 </p>
                             </div>
                             <br />
