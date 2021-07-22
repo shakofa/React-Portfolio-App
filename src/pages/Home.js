@@ -32,7 +32,7 @@ export default class Home  extends Component {
 
                             </div>
                             <br />
-                             <p className="p">Fullstack Developer</p>
+                             <p className="p">Fullstack Web Developer</p>
                             <br />
                              <div>
                                 <a href="https://drive.google.com/file/d/155SlfS3ItM-KkEMYtfOLdGcCjo_NOOxg/view?usp=sharing">
